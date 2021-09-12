@@ -1,0 +1,15 @@
+# Bubble-Short
+Bubble short in python
+
+def bubble(arr):
+   indexing = len(arr) - 1
+   sorted = False
+   while not sorted:
+     sorted = True
+     for k in range(0, indexing):
+         if list[k] > list[k+1]:
+             sorted = False
+             list[k], lsit[k+1] = list[k+1], list[k]
+    return list
+    
+print(bubble([2,8,9,7]))
